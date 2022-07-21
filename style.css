@@ -1,9 +1,13 @@
 <body>
-
+<style>
 * {
     box-sizing: border-box;
-  }
-font-family: 'Ibarra Real Nova', serif;
+}
+
+@font-face {
+    font-family: Ibarra Real Nova, serif; 
+    scr: url 
+   }: 
 
 body {
     display: flex;
@@ -14,4 +18,17 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-  }
+}
+
+.nav-list {
+    padding: 0 20px;
+    line-height: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+html {
+    scroll-behavior: smooth; 
+}
+  </style>
